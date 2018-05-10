@@ -3,7 +3,7 @@ Kashf Mashrafi, Jessica Wu, Rohan Ahammed
 
 We used ArrayList to contruct the queue. 
 
-##Methods
+## Methods
 
 * add(String input):
 Adds imput to the end of queue, regardless of priority, with a runtime of O(n).
