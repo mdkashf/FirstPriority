@@ -1,7 +1,7 @@
 # FirstPriority
 Kashf Mashrafi, Jessica Wu, Rohan Ahammed
 
-We used ArrayList to contruct the queue. 
+We used ArrayList to contruct the queue. The queue only accepts String elements as required by prompt. The class contains basic priority queue methods (as shown below).
 
 ## Methods
 
