@@ -1,12 +1,12 @@
 # FirstPriority
 Kashf Mashrafi, Jessica Wu, Rohan Ahammed
 
-We used ArrayList to contruct the queue. The queue only accepts String elements as required by prompt. The class contains basic priority queue methods (as shown below).
+We used ArrayList to contruct the queue. The queue only accepts String elements as required by prompt. The class contains the methods from the PriorityQueue interface and the most important methods to an APQ (also justified by looking at the API).
 
 ## Methods
 
 * *add(String input)*:
-Adds imput to the end of queue, regardless of priority, with a runtime of O(n).
+Adds input to the end of queue, regardless of priority, with a runtime of O(n).
 
 * *isEmpty()*:
 Returns true if size of arrayList is 0, false otherwise with a runtime of O(1);
