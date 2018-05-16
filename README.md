@@ -37,7 +37,7 @@ Our prioritized list puts methods that are very easy to code (isEmpty(), peekMin
 
 * ```isEmpty()```: Returns true if size of heap is 0, false otherwise (Runtime of O(1)).
 
-* ```peekMin()```: (Runtime of O(1)).
+* ```peekMin()```: If heap is empty, return null. Otherwise, return first value of the heap(Runtime of O(1)).
 
 * ```add(Integer addVal)```: (Runtime of O(logn)).
 
