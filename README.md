@@ -35,7 +35,7 @@ Our prioritized list puts methods that are very easy to code (isEmpty(), peekMin
 
 * ```toString()```: (Runtime of O(n)).
 
-* ```isEmpty()```: (Runtime of O(1)).
+* ```isEmpty()```: Returns true if size of heap is 0, false otherwise (Runtime of O(1)).
 
 * ```peekMin()```: (Runtime of O(1)).
 
