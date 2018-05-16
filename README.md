@@ -1,4 +1,5 @@
 # FirstPriority
+## Lab 3
 Kashf Mashrafi, Jessica Wu, Rohan Ahammed
 
 We used ArrayList to contruct the queue. The queue only accepts String elements as required by prompt. The class contains the methods from the PriorityQueue interface and the most important methods to an APQ (also justified by looking at the API).
