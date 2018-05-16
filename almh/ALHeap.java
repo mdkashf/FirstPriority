@@ -66,6 +66,11 @@ public class ALHeap
   }//O(1)
 
 
+    /* Algorithm for adding:
+       1) Add the element to the heap (end of AL, next avail spot in heap)
+       2) If the element that was added is than its parent, swap the parent with the added element. If not, STOP.
+       3) Repeat step 2 for every swap made until the element is in correct pos
+    */
   /*****************************************************
    * add(Integer) 
    * Inserts an element in the heap
@@ -91,7 +96,11 @@ public class ALHeap
       }
   }//O(logn)
 
-
+    /* Algorithm for removing:
+       1) Swap the bottom, rightmost (last element in AL) element in heap with the root. Remove the former root (last element in AL).
+       2) If the new root is greater than the least child, swap. If not, STOP.
+       3) Repeat step 2 for every swap made until the element is in correct pos
+	   */
   /*****************************************************
    * removeMin()  ---  means of removing an element from heap
    * Removes and returns least element in heap.
@@ -110,7 +119,7 @@ public class ALHeap
 	swap( 0, _heap.size() - 1 );
 	_heap.remove( _heap.size() - 1);//this is better than leaving a "hole"
 
-	//put the new root in its right position 
+	//put the new root in the correct position 
 	int pos = 0;//pos of newly added element
 	int minChild;
 
