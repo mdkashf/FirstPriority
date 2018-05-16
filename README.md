@@ -39,7 +39,7 @@ Our prioritized list puts methods that are very easy to code (isEmpty(), peekMin
 
 * ```peekMin()```: If heap is empty, return null. Otherwise, return first element of the heap(Runtime of O(1)).
 
-* ```add(Integer addVal)```: (Runtime of O(logn)).
+* ```add(Integer addVal)```: Adds an element into the heap and places it into the right position by swapping with its parent if needed(Runtime of O(logn)).
 
 * ```removeMin()```: (Runtime of O(logn)).
 
