@@ -68,7 +68,7 @@ public class ALHeap
 
     /* Algorithm for adding:
        1) Add the element to the heap (end of AL, next avail spot in heap)
-       2) If the element that was added is than its parent, swap the parent with the added element. If not, STOP.
+       2) If the element that was added is less than its parent, swap the parent with the added element. If not, STOP.
        3) Repeat step 2 for every swap made until the element is in correct pos
     */
   /*****************************************************
