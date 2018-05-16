@@ -5,7 +5,7 @@ We used ArrayList to contruct the queue. The queue only accepts String elements 
 
 ## ArrayPriorityQueue Methods
 
-* '''add(String input)''':
+* ```add(String input)```:
 Adds input to the end of queue, regardless of priority, with a runtime of O(1) (amortized constant time).
 
 * isEmpty():
