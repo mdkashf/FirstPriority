@@ -33,15 +33,15 @@ Our prioritized list puts methods that are very easy to code (isEmpty(), peekMin
 
 ## ALHeap Methods 
 
-* ```toString()```: (Runtime of O(n)).
+* ```toString()```: Returns a string representing the level-order of the tree by iterating through each element in the heap (Runtime of O(n)).
 
 * ```isEmpty()```: Returns true if size of heap is 0, false otherwise (Runtime of O(1)).
 
-* ```peekMin()```: If heap is empty, return null. Otherwise, return first value of the heap(Runtime of O(1)).
+* ```peekMin()```: If heap is empty, return null. Otherwise, return first element of the heap(Runtime of O(1)).
 
 * ```add(Integer addVal)```: (Runtime of O(logn)).
 
 * ```removeMin()```: (Runtime of O(logn)).
 
-* ```minChildPos(int pos)```: (Runtime of O(1)).
+* ```minChildPos(int pos)```: Returns the position of closest child to the indicated position, or returns -1 if there is no child or if the position is out of the heap (Runtime of O(1)).
 
