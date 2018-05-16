@@ -41,7 +41,7 @@ Our prioritized list puts methods that are very easy to code (isEmpty(), peekMin
 
 * ```add(Integer addVal)```: Adds an element into the heap and places it into the right position by swapping with its parent if needed(Runtime of O(logn)).
 
-* ```removeMin()```: (Runtime of O(logn)).
+* ```removeMin()```: Returns min element of the heap. Removes the min element and maintains heap property by swapping elements into correct positions after removal (Runtime of O(logn)).
 
 * ```minChildPos(int pos)```: Returns the position of closest child to the indicated position, or returns -1 if there is no child or if the position is out of the heap (Runtime of O(1)).
 
