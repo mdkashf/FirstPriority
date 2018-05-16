@@ -32,15 +32,15 @@ Our prioritized list puts methods that are very easy to code (isEmpty(), peekMin
 
 ## ALHeap Methods 
 
-* toString():
+* toString(): (Runtime of O(n)).
 
-* isEmpty():
+* isEmpty(): (Runtime of O(1)).
 
-* peekMin():
+* peekMin(): (Runtime of O(1)).
 
-* add(Integer addVal):
+* add(Integer addVal): (Runtime of O(logn)).
 
-* removeMin():
+* removeMin(): (Runtime of O(logn)).
 
-* minChildPos(int pos):
+* minChildPos(int pos): (Runtime of O(1)).
 
