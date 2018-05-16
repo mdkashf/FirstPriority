@@ -8,13 +8,13 @@ We used ArrayList to contruct the queue. The queue only accepts String elements 
 * ```add(String input)```:
 Adds input to the end of queue, regardless of priority, with a runtime of O(1) (amortized constant time).
 
-* isEmpty():
+* ```isEmpty()```:
 Returns true if size of arrayList is 0, false otherwise with a runtime of O(1);
 
-* peekMin():
+* ```peekMin()```:
 Iterates trough the arrayList and returns the least priority element with a runtime of O(n).
 
-* removeMin():
+* ```removeMin()```:
 Uses peekMin to determine the least priority elemnt in queue. It then traverses through the arrayList to find the index of the element and calls remove() function of ArrayList to remove the element. This has a runtime of O(n).
 
 These methods have these runtimes as specified by the API and are implemented in this way because it is the simplest way to implement an ArrayPriorityQueue. Trying to determine priority when adding adds a lot of complications that is simply solved by making peekMin and reverseMin linear runtime, and add as constant, instead of vice versa.
@@ -32,15 +32,15 @@ Our prioritized list puts methods that are very easy to code (isEmpty(), peekMin
 
 ## ALHeap Methods 
 
-* toString(): (Runtime of O(n)).
+* ```toString()```: (Runtime of O(n)).
 
-* isEmpty(): (Runtime of O(1)).
+* ```isEmpty()```: (Runtime of O(1)).
 
-* peekMin(): (Runtime of O(1)).
+* ```peekMin()```: (Runtime of O(1)).
 
-* add(Integer addVal): (Runtime of O(logn)).
+* ```add(Integer addVal)```: (Runtime of O(logn)).
 
-* removeMin(): (Runtime of O(logn)).
+* ```removeMin()```: (Runtime of O(logn)).
 
-* minChildPos(int pos): (Runtime of O(1)).
+* ```minChildPos(int pos)```: (Runtime of O(1)).
 
