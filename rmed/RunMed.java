@@ -1,6 +1,7 @@
 /* RunMed Algo: 
 
  */
+import java.util.NoSuchElementException;//in order to import exception
 public class RunMed {
 
     //instance vars
@@ -13,12 +14,14 @@ public class RunMed {
 	bigVals = new ALHeapMax();
     }
 
-    public double getMedian(){
+    public int getMedian(){
 	
-	double median;
-	
+	int median;
+	if (lilVals.size() == 0 && bigVals.size() == 0){
+	    throw new NoSuchElementException();
+	}
 	if (lilVals.size() == bigVals.size()) {
-	    median =  ((double)lilVals.peekMin() + bigVals.peekMax()) / 2;
+	    median =  (lilVals.peekMin() + bigVals.peekMax()) / 2;
 	    return median;
 	}
 	else if (lilVals.size() > bigVals.size()){
@@ -30,7 +33,6 @@ public class RunMed {
 	}
 	return median;
     }
-
     public void add(Integer newVal){
 	
 	if (lilVals.peekMin() > newVal){
@@ -47,6 +49,8 @@ public class RunMed {
 	    lilVals.add(bigVals.peekMax());
 	    bigVals.removeMax();
 	}
+    }
+    public static void main(String[] args){
     }
     
 } //end class RunMed
