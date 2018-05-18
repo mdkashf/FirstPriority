@@ -2,7 +2,8 @@
 
  */
 public class RunMed {
-    
+
+    //instance vars
     ALHeapMin lilVals;
     ALHeapMax bigVals; 
     
@@ -12,12 +13,12 @@ public class RunMed {
 	bigVals = new ALHeapMax();
     }
 
-    public int getMedian(){
+    public double getMedian(){
 	
-	int median;
+	double median;
 	
 	if (lilVals.size() == bigVals.size()) {
-	    median =  (lilVals.peekMin() + bigVals.peekMax()) / 2;
+	    median =  ((double)lilVals.peekMin() + bigVals.peekMax()) / 2;
 	    return median;
 	}
 	else if (lilVals.size() > bigVals.size()){
